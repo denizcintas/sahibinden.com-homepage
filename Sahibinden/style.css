@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.sahibinden {
+    display: flex;
+    margin-left: 55px;
+}
+
+i {
+    margin-right: 15px;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background: #495C83;
+
+
+}
+
+.detay {
+    color: white;
+    font-size: 20px;
+    
+}
+
+.acil {
+    display: flex;
+}
+
+.anareklam {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ünlem {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 35px;
+    width: 35px;
+}
+
+.baslik {
+
+    justify-content: space-between;
+}
+
+.baslik li a {
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+}
+
+#hr {
+    margin-left: 70px;
+    width: 950px;
+}
+
+
+
+#ana {
+    color: black;
+}
+
+.navbar ul {
+    padding: 18px;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+.rightnav {
+    display: flex;
+    margin-right: 130px;
+}
+
+.rightnav li {
+    padding-left: 55px;
+
+
+}
+
+.search {
+    border-color: #7a86b6;
+    width: 400px;
+    height: 45px;
+    background: #06283D;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+
+    margin-left: 85px;
+
+
+}
+
+::placeholder {
+    padding: 5px;
+    color: white;
+}
+
+.rightnav li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.rightnav li a:hover {
+
+    border-bottom: 1px solid white;
+}
+
+.box1 {
+    border-color: #7a86b6;
+    width: 400px;
+    height: 45px;
+    background: #06283D;
+    border-radius: 5px;
+
+}
+
+#searchbox {
+    padding: 15px;
+    color: white;
+
+}
+
+#deletebox {
+
+    padding: 15px;
+    color: white;
+}
+
+#freever {
+    font-weight: 500;
+    padding: 15px;
+    background-color: #3c99c7;
+    border: 1px solid #7A86B6;
+    border-radius: 5px;
+}
+
+/* navbar FNISH*/
+
+.content {
+    padding-top: 25px;
+
+    height: 100vh;
+    width: 77.5%;
+    margin-left: 10.7%;
+}
+
+
+
+div.container {
+
+
+    overflow: hidden;
+    width: 100%;
+}
+
+div.leftmenu {
+
+    width: 20%;
+    float: left;
+
+}
+
+div.advert {
+    width: 70%;
+    float: right;
+    background-color: wh;
+}
+
+.maddeler {
+
+    color: #06283D;
+    line-height: 35px;
+}
+
+.maddeler li {
+
+    padding-left: 5px;
+
+    margin-left: 15px;
+    list-style: none;
+
+
+}
+
+
+.maddeler li a {
+
+    color: #003399;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+hr {
+    width: 350px;
+}
+
+.maddeler li a i {
+    background-color: yellow;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+/* Açılır Menüde kaldım*/
+.responsive-menu {
+    background-color: white;
+
+
+    font-size: 100%;
+}
+
+.responsive-menu ul {
+    list-style-type: none;
+}
+
+.responsive-menu ul li ul li {
+
+    padding: 10px;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+}
+
+.responsive-menu ul li ul {
+
+    display: none;
+}
+
+
+.responsive-menu ul li:hover ul {
+    display: block;
+
+}
+
+/*AÇILIR MENÜ KAPANDI*/
+.konut {
+    margin-left: 35px;
+}
+
+.vasıta div {
+    margin-left: 32px;
+}
+
+/* populer aramalar*/
+
+.aramalar {
+    margin-top: 50px;
+}
+
+.populerAramalar {
+    margin-left: 72px;
+}
+
+.populerAramalar ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px;
+    color: #44474E;
+    border: solid 1px gray;
+    border-radius: 10px;
+
+}
+
+#parama {
+    color: #000000;
+}
+
+.SıfırAraçlarDünyası {
+    margin-left: 72px;
+}
+
+.SıfırAraçlarDünyası ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px;
+    color: #44474E;
+    border: solid 1px gray;
+    border-radius: 10px;
+    width: 155px;
+
+}
+
+.EnÇokArananHizmetler {
+    margin-left: 72px;
+}
+
+.EnÇokArananHizmetler ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px;
+    color: #44474E;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #F9F9F9;
+    height: 25vh;
+    margin-top: 800px;
+    width: 100%;
+    padding-top: 5%;
+    ;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 150px;
+
+}
+
+.footer-menu ul {
+    line-height: 35px;
+    list-style-type: none;
+
+}
+
+.footer-menu ul li a {
+
+    text-decoration: none;
+    color: #888888;
+    font-style: 20px;
+    font-size: large;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font: 15px "Lucida Grande", "LucidaGrande", Arial, sans-serif;
+}
+
+h2 {
+    font: 23px "Lucida Grande", "LucidaGrande", Arial, sans-serif;
+}
+
+iframe {
+
+    display: flex;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 485px;
+}
+
+.reklam {
+
+    display: flex;
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 485px;
+}
+
+.baslık { 
+    font-size: 22px;
+    font-weight: 900;
+}
